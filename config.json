@@ -1,0 +1,9 @@
+{
+ "comment": "all parameters are described in the code as well as in readme file. Do not change names of these parameters",
+ 
+ "background_difference_threshold": 40,
+ "refresh_hz": 1,
+ "num_of_frames": 25,
+ "accept_new_frame_time": 0.3
+}
+ 
