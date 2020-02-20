@@ -27,7 +27,7 @@ class Main:
 
     def run(self):
         ret, frame = self.cap.read()
-        q = None 
+
         while ret:
             frame = cv2.resize(frame, (self.width, self.height))
             motion_image = self.detector.detectMotion(frame)
